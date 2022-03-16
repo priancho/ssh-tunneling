@@ -17,7 +17,7 @@ $ ssh-kengen
 ### 2. Set up password-less login
 
 Add your public key into the .ssh/authorized_keys file in all intermediate and end servers.
-
+Be carefult that .ssh (700) and .ssh/authorized_keys (644) have proper permissions.
 
 ### 3. Set up ssh tunneling config
 
